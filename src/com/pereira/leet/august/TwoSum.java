@@ -16,7 +16,7 @@ public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> values = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
-            if (values.keySet().contains(target - nums[i])){
+            if (values.containsKey(target - nums[i])){
                 return new int[]{values.get(target - nums[i]), i};
             } else {
                 values.put(nums[i], i);
