@@ -14,7 +14,7 @@ import java.util.HashMap;
  */
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> values = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> values = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             if (values.containsKey(target - nums[i])){
                 return new int[]{values.get(target - nums[i]), i};
