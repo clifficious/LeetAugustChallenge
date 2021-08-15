@@ -14,7 +14,6 @@ class TwoSumTest {
         TwoSum twoSum = new TwoSum();
         int[] myArray = {2, 7, 11, 15};
         int[] solution = twoSum.twoSum(myArray, 9);
-        assertNotNull(solution);
         int[] expected = {0, 1};
         assertArrayEquals(expected, solution);
     }
@@ -25,7 +24,6 @@ class TwoSumTest {
         TwoSum twoSum = new TwoSum();
         int[] myArray = {2, 7, 11, 15};
         int[] solution = twoSum.twoSum(myArray, 17);
-        assertNotNull(solution);
         int[] expected = {0, 3};
         assertArrayEquals(expected, solution);
     }
@@ -36,7 +34,6 @@ class TwoSumTest {
         TwoSum twoSum = new TwoSum();
         int[] myArray = {2, 7, 11, 15};
         int[] solution = twoSum.twoSum(myArray, 19);
-        assertNotNull(solution);
         int[] expected = {0, 0};
         assertArrayEquals(expected, solution);
     }
